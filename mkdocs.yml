@@ -9,11 +9,11 @@ extra:
   generator: false
 
 extra_css:
-  - stylesheets/extra.css
+  - docs/docs/stylesheets/extra.css
 
 theme:
   name: 'material'
-  custom_dir: 'theme'
+  custom_dir: 'docs/theme'
   include_sidebar: true
 
   icon:
@@ -75,10 +75,10 @@ nav:
   - 'Home': 'index.md'
 
   - 'Blog':
-    - 'blog/index.md'
+    - 'docs/blog/index.md'
 
   - 'Documentation':
-    - 'documentation/index.md'
+    - 'docs/documentation/index.md'
     - 'Subject 1':
     - 'Subject 2':
     - 'Subject 3':
