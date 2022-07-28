@@ -1,0 +1,89 @@
+site_name: Documentation
+site_author: Charles C R
+
+repo_name: 'cgahari02/Documentation'
+repo_url: 'https://github.com/cgahari02'
+edit_uri: ''
+copyright: Copyright &copy; 2022 cgahari02
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: 'material'
+  custom_dir: 'theme'
+  include_sidebar: true
+
+  icon:
+    logo: fontawesome/solid/lock-open
+    repo: fontawesome/solid/book-skull
+
+  docs_dir: 'docs'
+  site_dir: 'site'
+
+  features:
+    - navigation.tabs
+    - header.autohide
+    - navigation.indexes
+
+  include_search_page: false
+  search_index_only: true
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    - scheme: slate
+      primary: black
+      accent: purple
+      toggle: 
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+    - scheme: default
+      primary: black
+      accent: purple
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+
+
+markdown_extensions:
+  - def_list
+  - attr_list
+  - footnotes
+  - meta
+    #- git-revision-date-localized
+  - pymdownx.highlight:
+      auto_title: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+nav:
+  - 'Home': 'index.md'
+
+  - 'Blog':
+    - 'blog/index.md'
+
+  - 'Documentation':
+    - 'documentation/index.md'
+    - 'Subject 1':
+    - 'Subject 2':
+    - 'Subject 3':
+    - 'Subject 4':
+    - 'Subject 5':
+    - 'Subject 6':
+    - 'Subject 7':
+
