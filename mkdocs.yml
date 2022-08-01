@@ -72,5 +72,4 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-  - 'Home': 'index.md'
 
